@@ -19,7 +19,7 @@ title: Jurgen Treep
 author: Jurgen Treep
 description: A humble blog about me and the things I take an interest in.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://192.168.99.100:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jurgentreep.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 timezone: Europe/Amsterdam
 exclude:
