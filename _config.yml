@@ -17,7 +17,7 @@ remote_theme: yous/whiteglass
 
 title: Jurgen Treep
 author: Jurgen Treep
-description: A humble blog about me and the things I take an interest in.
+description: My little corner of the web where I write whatever comes to mind. It's often about technology but I also like to write about other things sometimes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jurgentreep.com" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
