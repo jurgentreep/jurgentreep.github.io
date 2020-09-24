@@ -2,7 +2,7 @@
 layout: post
 title: "How to schedule a task for rclone in windows"
 ---
-I recently wrote a blog post about [how I made a backup of my google drive with rclone]({% post_url 2020-09-24-how-to-schedule-a-task-for-rclone-in-windows %}). Whenever I want to make a backup however I still have to do it manually by entering the rclone command in my terminal. Because I want the backups to happen regularly without me having to think about it I decided to automate it. This blog post will be about how I scheduled a task in windows to back up my google drive using rclone every hour my computer is on.
+I recently wrote a blog post about [how I made a backup of my google drive with rclone]({% post_url 2020-09-20-backing-up-my-google-drive-with-rclone %}). Whenever I want to make a backup however I still have to do it manually by entering the rclone command in my terminal. Because I want the backups to happen regularly without me having to think about it I decided to automate it. This blog post will be about how I scheduled a task in windows to back up my google drive using rclone every hour my computer is on.
 
 This was my first time using the windows task scheduler but luckily there are enough resources online which explain how to use it. It’s pretty straightforward and you can look at existing tasks to get an idea how they work and what the best settings are. The most important tabs are general, triggers and actions the rest you can just leave as is.
 
