@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  background-color: burlywood;
+}
+
+.background {
+  position: fixed;
+  top: -5%;
+  left: -5%;
+  height: 110%;
+  width: 110%;
+  background-image: url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: blur(6px);
+}
+
+main {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  overflow: auto;
+}
+
+.pattern {
+  position: fixed;
+  top: -250%;
+  left: -250%;
+  background-size: 60px 60px;
+  height: 750%;
+  width: 750%;
+  background-image:
+    linear-gradient(to right, rgb(164 111 65 / 30%) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(164 111 65 / 30%) 1px, transparent 1px);
+  background-position: -1px -1px;
+  transform: rotate(45deg);
+}
+
+.content {
+  padding: 0 20px;
+  color: white;
+  font-size: 150%;
+  text-shadow: 1px 1px 2px #a46f41;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+a {
+  color: white;
+}
+
+em {
+  color: deeppink;
+}
